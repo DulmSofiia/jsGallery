@@ -1,0 +1,103 @@
+/*Section*/
+.section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .sec-con{
+  /* width: 100%; */
+  flex: 0 1 600px;
+  /* max-width: 1200px; */
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  /* border: 1px solid; */
+  overflow: hidden;
+}
+.section .sec-con .gallery{
+  width: 500%;
+  height: inherit;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  position: absolute;
+}
+.section .sec-con .gallery ul{
+ display: flex;
+ justify-content: space-between;
+}
+.section .sec-con .gallery ul li{
+ flex:1;
+ text-align: center;
+ line-height: 600px;
+ font-size: 30px;
+ /* border: 1px solid; */
+ box-sizing: border-box;
+ background-color: rgb(200, 220, 255);
+}
+.section .sec-con .center-btn{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top:50%;
+  transform: translateY(-50%);
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.section .sec-con .center-btn span{
+  width:30px;
+  height: 30px;
+  background-color: rgb(119, 144, 255);
+  box-sizing: border-box;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.section .sec-con .center-btn span:hover{
+  background-color: rgba(119, 144, 255, 0.445);
+  border: 1px solid #fff;
+}
+.section .sec-con .bcon{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+ 
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  padding:  5px 0;
+  display: flex;
+  justify-content:center;
+}
+.section .sec-con .bcon .items{
+  flex: 0 1 150px;
+  height: auto;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+.section .sec-con .bcon .items ul{
+  display: flex;
+  justify-content:space-between;
+  gap: 5px;
+}
+.section .sec-con .bcon .items ul li{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.section .sec-con .bcon .items ul li:hover{
+  background-color: rgba(119, 144, 255, 0.445);
+}
+.on{
+  background-color: rgb(119, 144, 255);
+}
+ 
+ 
